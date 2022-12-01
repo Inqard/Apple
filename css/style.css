@@ -1,0 +1,47 @@
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	columns: #0A0A0A;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header {
+	padding: 33px 0 32px;
+	background-color: #0A0A0A;
+	font-size: 24px;
+	line-height: 29px;
+	color: #717171;
+}
+
+.container {
+	max-width: 1200px;
+
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu-item {
+	padding-right: 30px;
+}
