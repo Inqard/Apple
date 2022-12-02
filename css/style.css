@@ -43,13 +43,14 @@ ul {
 	flex-basis: 0;
 }
 
-.phone{
+.phone-section{
 		font-weight: 400;
 		font-size: 24px;
 		line-height: 29px;
 		flex-grow: 1;
 		flex-basis: 0;
 		text-align: right;
+		padding-left: 0;
 }
 
 .menu-item {
@@ -177,6 +178,7 @@ ul {
 	display: block;
 	width: 100%;
 	margin-bottom: 20px;
+	color:#fff;
 	background-color: inherit;
 }
 
@@ -217,7 +219,7 @@ ul {
 	padding: 50px 0;
 }
 
-.footer-policy {
+.footer-policy-section {
 	flex-grow: 1;
 	flex-basis: 0;
 	font-weight: 400;
@@ -227,6 +229,13 @@ ul {
 
 .menu-btn {
 	display: none;
+}
+
+.menu-link:hover,
+.logo:hover,
+.phone:hover,
+.footer-policy:hover{
+	color: #FFFFFF;
 }
 
 @media (max-width: 1200px) {
@@ -273,7 +282,7 @@ ul {
 		z-index: 50;
 	}
 	.logo,
-	.phone{
+	.phone-section{
 		position: relative;
 		z-index: 50;
 	}
@@ -341,7 +350,7 @@ ul {
 	.new-text b {
 		max-width: 100%;
 	}
-	.phone{
+	.phone-section{
 		text-align: center;
 	}
 	.nav .logo{
@@ -405,7 +414,7 @@ ul {
 	.nav {
 		flex-wrap: wrap;
 	}
-	.phone{
+	.phone-section{
 		flex-basis: auto;
 		margin-top: 50px;
 		width: 100%;
