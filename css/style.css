@@ -44,6 +44,9 @@ ul {
 }
 
 .phone{
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 29px;
 		flex-grow: 1;
 		flex-basis: 0;
 		text-align: right;
@@ -199,4 +202,24 @@ ul {
 	padding: 16px 81px;
 	font-weight:400px;
 	cursor: pointer;
+}
+
+.footer{
+	background-color: #0A0A0A;
+}
+
+.footer-inner{
+	color: #717171;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 0;
+}
+
+.footer-policy {
+	flex-grow: 1;
+	flex-basis: 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
 }
