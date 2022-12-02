@@ -1,8 +1,8 @@
 # Apple
-Development of a web page based on a ready-made template with adaptive layout
+Development of a web page based on a ready-made template with adaptive layout<br>
 There was no layout for adaptive layout, adaptive layout was made and thought out by me
 
-Technology stack:
-HTML5
-CSS3
+Technology stack:<br>
+HTML5<br>
+CSS3<br>
 JS
